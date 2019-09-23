@@ -1,0 +1,18 @@
+*{margin:0;padding:0;-webkit-box-sizing:border-box;box-sizing:border-box}:root{--numberOfColumns:10;--numbersOfRows:10;--divSize:20}.container{background-color:#111;overflow:hidden;height:100vh;width:100%;display:-ms-grid;display:grid;-ms-grid-columns:(minmax(26px, 1fr))[auto-fit];grid-template-columns:repeat(auto-fit, minmax(26px, 1fr));-ms-grid-rows:(minmax(26px, 1fr))[auto-fit];grid-template-rows:repeat(auto-fit, minmax(26px, 1fr));gap:6px}.container__item{position:relative;width:var(--divSize);height:var(--divSize);background-color:#111;border:1px solid rgba(0,0,0,0.2)}.container__item::before{content:"";position:absolute;top:6px;left:6px;right:6px;bottom:6px;background-color:#1d1d1d;-webkit-box-shadow:0 1px 4px #000;box-shadow:0 1px 4px #000;-webkit-transition:2s;-o-transition:2s;transition:2s}.container__item:hover::before{-webkit-transition:0s;-o-transition:0s;transition:0s}.container__item:nth-child(8n+1):hover:before{background-color:#f00;-webkit-box-shadow:0 0 3px #f00,
+ 0 0 10px #f00;box-shadow:0 0 3px #f00,
+ 0 0 10px #f00}.container__item:nth-child(8n+2):hover:before{background-color:#0f0;-webkit-box-shadow:0 0 3px #0f0,
+ 0 0 10px #0f0;box-shadow:0 0 3px #0f0,
+ 0 0 10px #0f0}.container__item:nth-child(8n+3):hover:before{background-color:#f0f;-webkit-box-shadow:0 0 3px #f0f,
+ 0 0 10px #f0f;box-shadow:0 0 3px #f0f,
+ 0 0 10px #f0f}.container__item:nth-child(8n+4):hover:before{background-color:#00f;-webkit-box-shadow:0 0 3px #00f,
+ 0 0 10px #00f;box-shadow:0 0 3px #00f,
+ 0 0 10px #00f}.container__item:nth-child(8n+5):hover:before{background-color:#e9e;-webkit-box-shadow:0 0 3px #e9e,
+ 0 0 10px #e9e;box-shadow:0 0 3px #e9e,
+ 0 0 10px #e9e}.container__item:nth-child(8n+6):hover:before{background-color:#00ffad;-webkit-box-shadow:0 0 3px #00ffad,
+ 0 0 10px #00ffad;box-shadow:0 0 3px #00ffad,
+ 0 0 10px #00ffad}.container__item:nth-child(8n+7):hover:before{background-color:#f66104;-webkit-box-shadow:0 0 3px #f66104,
+ 0 0 10px #f66104;box-shadow:0 0 3px #f66104,
+ 0 0 10px #f66104}.container__item:nth-child(8n+8):hover:before{background-color:#e106ec;-webkit-box-shadow:0 0 3px #e106ec,
+ 0 0 10px #e106ec;box-shadow:0 0 3px #e106ec,
+ 0 0 10px #e106ec}
+/*# sourceMappingURL=index.min.css.map */
